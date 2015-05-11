@@ -1,0 +1,282 @@
+body {
+      overflow: hidden; 
+      background-color: D7D8E0;
+      background-image: linear-gradient(90deg, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 35%, rgba(0,0,0,0) 50%, white 25%, white 25%, rgba(0,0,0,0) 50%, rgba(255,255,255,1));
+      background-size: 3px 3px;
+      z-index: 1;
+
+
+    }
+
+/* # tcontainer
+
+*/
+.maincontainer{
+	width:100%;
+	height:200px;
+	position: relative;
+
+}
+
+.tcontainer{
+	width:120%;
+	height:200px;
+	display: inline-block;
+	height: 200px;
+	min-height: 100%;
+	z-index: -1;
+	margin-top:450px;
+	position: relative;
+	overflow: hidden;
+	margin-left:-20px;
+
+}
+
+
+
+.tab {
+	display:none;
+}
+
+.tab-open{
+	display: block;
+}
+
+/* # masthead 
+
+*/
+.masthead {
+	font-family: 'Fira Mono',;
+	font-size:20px;
+	font-weight: 700;
+	color: yellow;
+	overflow: hidden;
+	position: fixed;
+	text-align: center;
+	z-index: 999;
+	width:100%;
+	margin-left:-8px;
+	text-decoration: none;
+	top:10px;
+
+
+}
+@media screen and (min-width: 600px) {
+  .masthead {
+  	top:10px;
+  	text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left:-8px;
+
+	}
+}
+
+/*## choose
+*/
+
+.choose{
+	font-family: Lato;
+	font-size:15px;
+	margin-top:30px;
+
+}
+
+/* ## location
+*/
+
+.location{
+	background-color: #ECECEC;
+	text-align: left;
+	margin-top:100px;
+	position: fixed;
+	width:100%;
+
+}
+
+
+.location-wrap{
+
+}
+
+.location-input{
+	width:95%;
+	height:auto;
+	padding:8px;
+	background-color: #ECECEC;
+	color:black;
+	font-family: 'Fira Mono',;
+	font-size: 20px;
+	border: 5px;
+	border-color: yellow;
+	border-style: solid;
+	border-radius: 0px;
+	display: block;
+
+
+}
+
+.location-action {
+	width: 95%;
+	padding:5px;
+	background-color: #ECECEC;
+	font-family: 'Fira Mono',;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	text-transform:uppercase;
+	border:none;
+	cursor: pointer;
+	display: block;
+}
+
+@media screen and (min-width:600px){
+	 .location{
+    	text-align: left;
+		margin-top:200px;
+		position: fixed;
+		width:100%;
+	}
+}
+@media screen and (min-width:600px){
+	 .location-input{
+    	width: 65%;
+    	font-size: 50px;
+		height:auto;
+		padding:8px;
+		display: inline-block;
+	}
+}
+@media screen and (min-width:600px){
+	 .location-action{
+    	width: 30%;
+    	font-size: 50px;
+    	display: inline-block;
+
+	}
+}
+
+/* ## current
+*/
+.current{
+	text-align: left;
+	margin-top:100px;
+	position: fixed;
+	width:100%;
+}
+
+.currentlocation{
+	text-align: left;
+	font-family: 'Fira Mono',;
+	font-size: 35px;
+	line-height: 50px;
+
+}
+
+.currentlocation-output{
+	color:white;
+	text-decoration: underline;
+}
+
+@media screen and (min-width:600px){
+	 .currentlocation {
+    	text-align: left;
+		margin-top:100px;
+		font-size: 50px;
+		width:100%;
+		margin-left:30px;
+		line-height: 0px;
+
+	}
+}
+
+/* # containercircle
+*/
+.containercircle{
+	display: inline-block;
+	position: fixed;
+	margin-top:300;
+	margin-bottom:300px;
+	width:100%;
+	height:500px;
+
+}
+
+@media screen and (min-width:600px){
+	.containercircle {
+	margin-top:100px;
+	margin-bottom:100px;
+	display: inline-block;
+	position: fixed;
+	width:100%;
+	margin-top:300px;
+
+	}
+}
+
+
+
+
+/* ## circle
+
+.circle{
+    padding-bottom: 600px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: red; 
+    z-index: 999;
+
+}
+
+.circle-type {
+	width: 600px;
+	height:500px;
+}
+
+
+@media screen and (min-width:600px){
+	.circle {
+
+	}
+}
+
+*/
+input{
+	display: block;
+	border:1px;
+	font-size: 14px;
+	font-weight: bold;
+	opacity: 0.5;
+	background-color:black;
+	text-align: center;
+}
+input:focus, textarea:focus {
+    outline: none;
+    border:none;
+}
+
+
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+
+
+
+
+
+
+

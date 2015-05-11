@@ -1,0 +1,267 @@
+@font-face {
+  font-family: Monosten;
+  src: url('Monosten_E.woff');
+  
+}
+
+@font-face {
+  font-family: gravurB;
+  src: url('gravurbold.woff');
+  
+}
+
+body {
+      overflow: hidden;
+    }
+
+/* # container
+
+*/
+
+.container{
+	
+}
+
+.tcontainer{
+	width:110%;
+	height:970px;
+	z-index: -1;
+	position: absolute;
+	margin-top:-200px;
+	margin-left:-20px;
+
+}
+
+/* # masthead 
+
+*/
+.masthead {
+	font-family: 'Fira Mono',;
+	font-size:20px;
+	font-weight: 700;
+	color: yellow;
+	overflow: hidden;
+	position: fixed;
+	text-align: center;
+	z-index: 999;
+	width:100%;
+	margin-left:-8px;
+	text-decoration: none;
+	top:10px;
+
+
+}
+@media screen and (min-width: 600px) {
+  .masthead {
+  	top:10px;
+  	text-align: center;
+    display: inline-block;
+    position: relative;
+    margin-left:-8px;
+
+	}
+}
+
+
+
+/* ## location
+*/
+
+.location{
+	background-color:rgba(0,0,0,0.0001);
+	text-align: left;
+	margin-top:60px;
+	position: fixed;
+	width:100%;
+	font-family: Monosten;
+	color:white;
+	z-index: 1;
+}
+
+
+.location-wrap{
+	background-color:rgba(0,0,0,0.0001);
+
+}
+
+.location-input{
+	width:95%;
+	height:auto;
+	padding:8px;
+	background-color:rgba(0,0,0,0.0001);
+	color:black;
+	font-family: Monosten;
+	font-size: 20px;
+	border-bottom: 4px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color: white;
+	letter-spacing: 1.8px;
+	border-style: solid;
+	border-radius: 0px;
+	display: block;
+
+
+}
+
+.location-action {
+	width: 95%;
+	padding:5px;
+	background-color:rgba(0,0,0,0.0001);
+	font-family: Monosten;
+	border:none;
+	font-size: 70px;
+	font-weight: bold;
+	letter-spacing: 1.8px;
+	text-transform:uppercase;
+	cursor: pointer;
+	display: block;
+	color:white;
+}
+
+@media screen and (min-width:600px){
+	 .location{
+    	text-align: left;
+		margin-top:100px;
+		margin-left:100px;
+		position: fixed;
+		width:90%;
+	}
+}
+@media screen and (min-width:600px){
+	 .location-input{
+    	width: 65%;
+    	font-size: 40px;
+		height:auto;
+		padding:8px;
+		display: inline-block;
+	}
+}
+@media screen and (min-width:600px){
+	 .location-action{
+    	width: 30%;
+    	font-size: 70px;
+    	display: inline-block;
+
+	}
+}
+
+/* ## current
+*/
+.current{
+	text-align: center;
+	position: relative;
+	width:100%;
+	z-index: 1;
+}
+
+.currentlocation{
+	margin-top:100px;
+	text-align: center;
+	font-family: Monosten;
+	letter-spacing: 2px;
+	font-size: 28px;
+	line-height: 20px;
+	color:white;
+	z-index: 1;
+
+}
+
+.currentlocation-small{
+	margin-top:150px;
+	text-align: center;
+	font-family: Monosten;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color:white;
+	text-transform: uppercase;
+}
+.currentlocation-output{
+	color:white;
+	text-decoration: underline;
+	z-index: 1;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}
+
+@media screen and (min-width:600px){
+	 .currentlocation {
+    	text-align: center;
+		font-size: 30px;
+		width:100%;
+		line-height: 20px;
+
+	}
+}
+
+/* # containercircle
+*/
+.containercircle{
+	display: inline-block;
+	position: fixed;
+	margin-top:300;
+	margin-bottom:300px;
+	width:100%;
+	height:500px;
+
+}
+
+@media screen and (min-width:600px){
+	.containercircle {
+	margin-top:100px;
+	margin-bottom:100px;
+	display: inline-block;
+	position: fixed;
+	width:100%;
+	margin-top:300px;
+
+	}
+}
+
+
+
+
+/* ## circle
+*/
+.circle{
+
+}
+
+.circle-type {
+	width: 50%;
+    height:0;
+    padding-bottom: 50%;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #4679BD; 
+}
+
+@media screen and (min-width:600px){
+	.circle {
+
+	}
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+
+
+
