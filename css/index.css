@@ -24,7 +24,7 @@ body {
 
 .tcontainer{
 	width:110%;
-	height:1070px;
+	height:1570px;
 	z-index: -1;
 	position: absolute;
 	margin-top:-200px;
@@ -37,7 +37,7 @@ body {
 */
 .masthead {
 	font-family: 'Fira Mono',;
-	font-size:20px;
+	font-size:40px;
 	font-weight: 700;
 	color: yellow;
 	overflow: hidden;
