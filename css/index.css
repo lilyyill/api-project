@@ -24,7 +24,7 @@ body {
 
 .tcontainer{
 	width:110%;
-	height:970px;
+	height:1070px;
 	z-index: -1;
 	position: absolute;
 	margin-top:-200px;
@@ -162,7 +162,7 @@ body {
 	font-family: Monosten;
 	letter-spacing: 2px;
 	font-size: 28px;
-	line-height: 20px;
+	line-height: 40px;
 	color:white;
 	z-index: 1;
 

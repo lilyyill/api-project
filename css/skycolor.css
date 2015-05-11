@@ -50,7 +50,7 @@ body {
 */
 .masthead {
 	font-family: 'Fira Mono',;
-	font-size:20px;
+	font-size:40px;
 	font-weight: 700;
 	color: yellow;
 	overflow: hidden;
@@ -58,15 +58,16 @@ body {
 	text-align: center;
 	z-index: 999;
 	width:100%;
-	margin-left:-8px;
+	margin-left:-200px;
 	text-decoration: none;
-	top:10px;
+	top:280px;
+	
 
 
 }
 @media screen and (min-width: 600px) {
   .masthead {
-  	top:10px;
+  	top:330px;
   	text-align: center;
     display: inline-block;
     position: relative;
